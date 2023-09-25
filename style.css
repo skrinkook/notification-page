@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('fonts/PlusJakartaSans-VariableFont_wght.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: PlusJakartaSans, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40rem;
+    height: 32.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+section.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+section.lowerHalf {
+
+    overflow: auto;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+}
+
+#boxAndNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.markRead {
+    display: flex;
+    align-items: center;
+    color: rgb(13, 52, 118);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.notificationsNumber {
+    margin-left: 0;
+    background-color: rgb(13, 52, 118);
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+#Notifications {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+div.NotificationUnit {
+    background-color: rgb(13, 52, 118, 0.04);
+    width: 100%;
+    height: 65px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+}
+
+div.NotificationUnit>div.leftSide>img {
+    border-radius: 30rem;
+
+}
+
+div.leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 0.5rem;
+}
+
+div.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2.notificationMessage {
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    word-spacing: 1px;
+}
+
+p.notificationTime {
+    font-size: 10px;
+    opacity: 40%;
+}
+
+span.name-text {
+    font-weight: bolder;
+}
+
+span.activity {
+    font-weight: bolder;
+    color: #4d4d4d;
+}
+
+.newNotification {
+    background-color: red;
+    width: 9px;
+    height: 9px;
+    border-radius: 30px;
+    margin-left: 10px;
+    opacity: 80%;
+}
+
+.notificationTextMessageLeft {
+    display: flex;
+    -ms-flex-direction: row;
+    align-items: center;
+}
