@@ -84,6 +84,10 @@ div.NotificationUnit {
     border-radius: 13px;
 }
 
+div.NotificationUnit.inactive {
+    background-color: white;
+}
+
 div.NotificationUnit>div.leftSide>img {
     border-radius: 30rem;
 
@@ -100,6 +104,18 @@ div.rightSide {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+div.rightSideImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 0.5rem;
+    margin-left: auto;
+}
+
+div.NotificationUnit>div.rightSideImage>img {
+    border-radius: 6px;
 }
 
 h2.notificationMessage {
@@ -136,4 +152,24 @@ span.activity {
     display: flex;
     -ms-flex-direction: row;
     align-items: center;
+}
+
+.DM-notification {
+    display: flex;
+    flex-direction: column;
+}
+
+.DM-content {
+    margin-left: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 0.8rem;
+    word-spacing: 1px;
+    margin-bottom: 1rem;
+
+}
+
+div.DM-notification>div.NotificationUnit {
+    margin-bottom: 0;
 }
