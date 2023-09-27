@@ -7,17 +7,19 @@
 </head>
 <body>
     <div class="container">
+
         <section class="header">
             <div id="boxAndNumber">
                 <h1 id="Notifications">Notifications</h1>
-                <div class="notificationsNumber"><p>3</p></div>
+                <div class="notificationsNumber"><p id="numberOfNotifications">3</p></div>
             </div>
             <p class="markRead">Mark all as read</p>
         </section>
         <section class="lowerHalf">
+
             <div class="NotificationUnit" id="notification1">
                 <div class="leftSide">
-                <img src="images/avatar-mark-webber.webp" alt="Profile Picture 1" height="40px" width="40px">
+                    <img src="images/avatar-mark-webber.webp" alt="Mark Webber" height="40px" width="40px">
                 </div>
                 <div class="rightSide">
                     <div class="notificationTextMessageLeft">
@@ -27,26 +29,87 @@
                     <p class="notificationTime">1m ago</p>
                 </div>
             </div>
+
             <div class="NotificationUnit" id="notification2">
-
+                <div class="leftSide">
+                    <img src="images/avatar-angela-gray.webp" alt="Angela Gray" height="40px" width="40px">
+                </div>
+                <div class="rightSide">
+                    <div class="notificationTextMessageLeft">
+                        <h2 class="notificationMessage"><span class="name-text">Angela Gray </span>followed you</h2>
+                        <div class="newNotification"></div>
+                    </div>
+                    <p class="notificationTime">5m ago</p>
+                </div>
             </div>
+
             <div class="NotificationUnit" id="notification3">
-
+                <div class="leftSide">
+                    <img src="images/avatar-jacob-thompson.webp" alt="Jacob Thompson" height="40px" width="40px">
+                </div>
+                <div class="rightSide">
+                    <div class="notificationTextMessageLeft">
+                        <h2 class="notificationMessage"><span class="name-text">Jacob Thompson </span>has joined your group <span class="activity">Chess club</span></h2>
+                        <div class="newNotification"></div>
+                    </div>
+                    <p class="notificationTime">1 day ago</p>
+                </div>
             </div>
-            <div class="NotificationUnit" id="notification4">
 
+            <div class="DM-notification">
+                <div class="NotificationUnit inactive" id="notification4">
+                    <div class="leftSide">
+                        <img src="images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" height="40px" width="40px">
+                    </div>
+                    <div class="rightSide">
+                        <div class="notificationTextMessageLeft">
+                            <h2 class="notificationMessage"><span class="name-text">Rizky Hasanuddin </span>sent you a private message</h2>
+                        </div>
+                        <p class="notificationTime">5 days ago</p>
+                    </div>
+                </div>
+                <div class="DM-content"><p>Hello, thanks for setting up Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p></div>
             </div>
-            <div class="NotificationUnit" id="notification5">
 
+
+            <div class="NotificationUnit inactive" id="notification5">
+                <div class="leftSide">
+                    <img src="images/avatar-kimberly-smith.webp" alt="Kimberly Smith" height="40px" width="40px">
+                </div>
+                <div class="rightSide">
+                    <div class="notificationTextMessageLeft">
+                        <h2 class="notificationMessage"><span class="name-text">Kimberly Smith </span>commented on your picture</h2>
+                    </div>
+                    <p class="notificationTime">1 week ago</p>
+                </div>
+                <div class="rightSideImage">
+                    <img src="images/image-chess.webp" height="30px" width="30px">
+                </div>
             </div>
-            <div class="NotificationUnit" id="notification6">
 
+
+            <div class="NotificationUnit inactive" id="notification6">
+                <div class="leftSide">
+                    <img src="images/avatar-nathan-peterson.webp" alt="Nathan Peterson" height="40px" width="40px">
+                </div>
+                <div class="rightSide">
+                    <div class="notificationTextMessageLeft">
+                        <h2 class="notificationMessage"><span class="name-text">Nathan Peterson </span>reacted to your recent post <span class="activity">5 end-game strategies to win the game</span></h2>
+                    </div>
+                    <p class="notificationTime">2 weeks ago</p>
+                </div>
             </div>
-            <div class="NotificationUnit" id="notification7">
 
-            </div>
-            <div class="NotificationUnit" id="notification8">
-
+            <div class="NotificationUnit inactive" id="notification7">
+                <div class="leftSide">
+                    <img src="images/avatar-anna-kim.webp" alt="Anna Kim" height="40px" width="40px">
+                </div>
+                <div class="rightSide">
+                    <div class="notificationTextMessageLeft">
+                        <h2 class="notificationMessage"><span class="name-text">Anna Kim </span>left the group <span class="activity">Chess Club</span></h2>
+                    </div>
+                    <p class="notificationTime">2 weeks ago</p>
+                </div>
             </div>
 
         </section>
