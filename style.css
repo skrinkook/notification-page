@@ -173,3 +173,93 @@ span.activity {
 div.DM-notification>div.NotificationUnit {
     margin-bottom: 0;
 }
+
+span.activity:hover,
+span.activity:focus,
+span.name-text:hover,
+span.name-text:focus {
+    cursor: pointer;
+    color: rgb(23, 74, 157);
+
+}
+
+div.DM-content:hover,
+div.DM-content:focus {
+    cursor: pointer;
+    background-color: rgba(135, 206, 250, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+div.rightSideImage>img:hover,
+div.rightSideImage>img:focus,
+div.leftSide>img:hover,
+div.leftSide>img:focus {
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 644px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+
+    }
+}
+
+@media only screen and (max-aspect-ratio: 649/1000) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        transform: translate(0%, 0%);
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        overflow: visible;
+    }
+
+    section.header {
+        width: 100vw;
+        height: 12vh;
+
+    }
+
+    #Notifications {
+        font-size: 3rem;
+    }
+
+    .notificationsNumber {
+        width: 4rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #numberOfNotifications {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .markRead {
+        font-size: 2rem;
+    }
+
+    div.NotificationUnit {
+        height: 12vh;
+
+    }
+
+    div.leftSide {
+
+    }
+
+    h2.notificationMessage {
+        font-size: 2.5rem;
+    }
+
+    p.notificationTime {
+        font-size: 2.5rem;
+    }
+}
