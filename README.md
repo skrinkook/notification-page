@@ -1,5 +1,7 @@
 # notification-page
 
+https://skrinkook.github.io/notification-page/
+
 This is component for a website that shows notifications. 
   - Users can distinguish between read and unread notifications
   - Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
