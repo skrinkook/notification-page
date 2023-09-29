@@ -16,8 +16,8 @@ document.querySelector(".markRead").addEventListener("click", function(e){
             console.log("Position of 0: " + (index+1));
             let notificationUnit = document.querySelector(`#notification${index+1}`);
             notificationUnit.classList.add("inactive");
-            let redCircle = document.querySelectorAll(".newNotification");
-            redCircle.forEach(function(element){
+            let redDot = document.querySelectorAll(".newNotification");
+            redDot.forEach(function(element){
                 element.style.display = "none";
             })
         }
